@@ -8,11 +8,27 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>didier!</title>
   </head>
   <body>
-    <div>
-    <h1>Hello, world!</h1>
+<body>
+<div class="container">
+<h1>Agregar Registro</h1>
+<div
+class="row">
+<div class="col-sm-12">
+<form action="">
+<label for="nombre">Nombre:</label>
+<input type="text" id="nombre" name="nombre" class="form-control" required>
+<label for="nombre">Apellido Paterno: </label>
+<input type="text" id="apaterno" name="apaterno" class="form-control" required>
+<label for="amaterno">Apellido Materno: </label>
+<input type="text" id="amaterno" name="amaterno" class="form-control" required>
+<button class="btn btn-primary form-control">Guardar</button>
+</form>
+</div>
+</div>
+</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
