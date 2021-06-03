@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Johana Jordan</title>
+    <title>didier!</title>
   </head>
   <body>
 <body>
@@ -29,14 +29,20 @@ class="row">
 </div>
 </div>
   <div class="row">
-    <div class="col-sm-12">
-      <div class="table table-resonsive">
-        <table class="table table-hover table-bordered">
-          <tr>
-            
-        </table>
+         <div class="col-sm-12">
+            <div class="table table=resonsive">
+              <table class="table table-hover table-bordered">
+                <tr>
+                  <th>Nombre</th>
+                  <th>Apellido paterno</th>
+                  <th>Apellido materno</th>
+                  <th>Editar</th>
+                  <th>Eliminar</th>
+                </tr>
+              </table>
+           </div>
+         </div>
       </div>
-    </div>
 </div>
 
     <!-- Optional JavaScript -->
