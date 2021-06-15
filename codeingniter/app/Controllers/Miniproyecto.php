@@ -1,8 +1,8 @@
 <?php
 
 namespace App\Controllers;
-use App\models\datosmodel;
-class miniproyecto extends basecontroller
+use App\Models\Datosmodel;
+class Miniproyecto extends Basecontroller
 {
   public function index()
   {
