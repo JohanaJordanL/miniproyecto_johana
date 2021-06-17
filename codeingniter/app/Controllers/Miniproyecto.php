@@ -15,7 +15,7 @@ class Miniproyecto extends Basecontroller
   }
 }
 public function obtenerDatos($id){
-  $gModel = new generalModel();
+  $gModel = new DatosModel();
   $data = ["id" => $id];
   $respuesta = $gmodel->obtenerInformacion($data);
   
@@ -25,7 +25,7 @@ public function obtenerDatos($id){
 }
 
 public fuction insertar(){
-  $gmodel = new generalModel();
+  $gmodel = new DatosModel();
   $data =[
     "nombre" => $POST['nombre'],
     "a_paterno" => $_POST['apaterno'],
@@ -41,7 +41,7 @@ public fuction insertar(){
     }
     
     public function actualizar(){
-    $gModel = new generalModel();
+    $gModel = new DatosModel();
     $data = [
     "nombre" => $_POST['nombre'],
     "a_paterno" => $_POST['apaterno'],
@@ -57,7 +57,7 @@ public fuction insertar(){
     }
     }
     public function eliminar($idPersona){
-    $gModel = new GeneralModel();
+    $gModel = new DatosModel();
     $id = {"id" => $idPersona];
     $respuesta = $gModel->eliminar($id);
     
